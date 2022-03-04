@@ -48,15 +48,21 @@
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 py-6 py-xl-0 pl-5 pr-5 d-flex align-items-center">
                   <div class="mb-4 text-xl-start px-md-8 px-lg-20 px-xl-5">
                     <!-- Caption -->
-                      <h1 class="display-3 font-weight-bold text-color-talas font-talas-head">
-                          From Fertile Soil Indonesia 
-                      </h1>
-                      <h3 class="mb-5 mt-5 lead text-black pe-lg-6 font-talas-body" style="line-height: 2rem;">
-                          Feel, the truthness taste of nature, and feel the savor, bring your live more healthy.
-                      </h3>
+                        <!-- hidden only on sm -->
+                        <h1 class="display-4 font-weight-bold text-color-talas font-talas-head d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                            From Fertile Soil Indonesia 
+                        </h1>
+                        <!-- visible only on sm -->
+                        <h1 class="display-5 font-weight-bold text-color-talas font-talas-head d-sm-block d-md-none d-lg-none d-xl-none">
+                            From Fertile Soil Indonesia 
+                        </h1>
+                        <!-- always visible on any screen -->
+                        <h3 class="mb-5 mt-5 lead text-black pe-lg-6 font-talas-body" style="line-height: 2rem;">
+                            Feel, the truthness taste of nature, and feel the savor, bring your live more healthy.
+                        </h3>
                     <!-- List -->
                     <button type="button" href="#demo" class="btn text-white btn-lg bg-talas mr-2">View Product</button>
-                    <button type="button" href="#demo" class="btn align-middle mr-2 btn-lg">
+                    <button type="button" href="#demo" class="btn align-middle mr-lg-2 mr-xl-2 btn-lg">
                         <i class="fa-regular fa-circle-play fa-lg"></i>
                         Watch Video
                     </button>
