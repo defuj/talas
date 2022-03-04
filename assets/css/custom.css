@@ -32,6 +32,14 @@
     border-radius: .5rem!important;
 }
 
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+.space-between { 
+    justify-content: space-between; 
+} 
+
 .nav-item{
     margin-left: .8rem !important;
     margin-right: .8rem !important;
