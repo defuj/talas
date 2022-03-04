@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: "Vollkorn";
+    src: url('../fonts/Vollkorn/static/Vollkorn-Regular.ttf');
+}
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px); 
+}
+.navbar-brand{
+    margin-right: 0rem !important;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.text-talas {
+    color: #276555 !important;
+}
+.bg-talas {
+    background-color: #276555 !important;
+}
+.font-talas-head{
+    font-family: "Vollkorn", Times, serif !important;
+}
+.font-talas-body{
+    font-family: "Roboto", Times, serif !important;
+}
+
+.nav-item{
+    margin-left: .8rem !important;
+    margin-right: .8rem !important;
+}
+
+p, a, span {
+    font-family: "Roboto", Times, serif !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Vollkorn", Times, serif !important;
+}
