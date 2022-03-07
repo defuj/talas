@@ -15,7 +15,7 @@
   <body style="background-color: white;">
     <!-- Navbar Section -->
     <nav class="navbar fixed-top sticky-top navbar-expand-lg navbar-light blur px-md-8 px-lg-20 px-xl-5">
-        <a class="navbar-brand px-lg-5 px-xl-5" href="#">
+        <a class="navbar-brand px-lg-5 px-xl-5" href="./index.html">
             <img src="assets/images/logo.png" width="auto" height="52" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
                 </h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent d-flex justify-content-center">
-                        <li class="breadcrumb-item font-talas-head"><a href="./index.html">Home</a></li>
+                        <li class="breadcrumb-item font-talas-head"><a class="text-dark" href="./index.html">Home</a></li>
                         <li class="breadcrumb-item active font-talas-head" aria-current="page">Product</li>
                     </ol>
                 </nav>
@@ -60,13 +60,13 @@
     </section>
 
     <!-- Product Section -->
-    <section class="main d-flex py-4">
-        <div class="container justify-content-center">
+    <section class="main py-4">
+        <div class="container">
             <!-- Product Action -->
             <div class="row flex-column-reverse flex-sm-row flex-xs-row">
-                <div class="col-xl-3 col-lg-3 col-md-0 col-sm-0 col-xs-0"></div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                    <ul class="nav nav-pills">
+                <div class="col-xl-3 col-lg-3 col-md-0 col-sm-0"></div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 justify-content-center">
+                    <ul class="nav nav-pills my-2">
                         <li class="nav-item">
                           <a class="nav-link text-dark menu-taro-active" href="#">All</a>
                         </li>
@@ -81,8 +81,8 @@
                         </li>
                       </ul>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                    <div class="input-group mb-3 form-search bg-light">
+                <div class="col-xl-3 col-lg-3 col-md-12">
+                    <div class="input-group my-2 form-search bg-light">
                         <input type="text" class="form-control bg-light form-search-none" placeholder="Search" aria-label="Search Product">
                         <button type="button" class="btn bg-transparent" href="#">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -92,42 +92,72 @@
             </div>
             <!-- Product Items -->
             <div class="row py-3">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 my-3">
-                    <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
-                        <img src="assets/images/taro-product-1.png" class="card-img-top rounded-lg ratio ratio-16x9 embed-responsive embed-responsive-16by9" alt="">
-                        <h5 class="card-title text-center mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
-                    </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 my-2">
+                    <a href="#">
+                        <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
+                            <img src="assets/images/taro-product-1.png" class="rounded-lg" alt="">
+                            <h5 class="card-title text-dark mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 my-3">
-                    <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
-                        <img src="assets/images/taro-product-1.png" class="card-img-top rounded-lg ratio ratio-16x9 embed-responsive embed-responsive-16by9" alt="">
-                        <h5 class="card-title text-center mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
-                    </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 my-2">
+                    <a href="#">
+                        <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
+                            <img src="assets/images/taro-product-1.png" class="rounded-lg" alt="">
+                            <h5 class="card-title text-dark mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 my-3">
-                    <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
-                        <img src="assets/images/taro-product-1.png" class="card-img-top rounded-lg ratio ratio-16x9 embed-responsive embed-responsive-16by9" alt="">
-                        <h5 class="card-title text-center mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
-                    </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 my-2">
+                    <a href="#">
+                        <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
+                            <img src="assets/images/taro-product-1.png" class="rounded-lg" alt="">
+                            <h5 class="card-title text-dark mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 my-3">
-                    <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
-                        <img src="assets/images/taro-product-1.png" class="card-img-top rounded-lg ratio ratio-16x9 embed-responsive embed-responsive-16by9" alt="">
-                        <h5 class="card-title text-center mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
-                    </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 my-2">
+                    <a href="#">
+                        <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
+                            <img src="assets/images/taro-product-1.png" class="rounded-lg" alt="">
+                            <h5 class="card-title text-dark mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 my-3">
-                    <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
-                        <img src="assets/images/taro-product-1.png" class="card-img-top rounded-lg ratio ratio-16x9 embed-responsive embed-responsive-16by9" alt="">
-                        <h5 class="card-title text-center mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
-                    </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 my-2">
+                    <a href="#">
+                        <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
+                            <img src="assets/images/taro-product-1.png" class="rounded-lg" alt="">
+                            <h5 class="card-title text-dark mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 my-3">
-                    <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
-                        <img src="assets/images/taro-product-1.png" class="card-img-top rounded-lg ratio ratio-16x9 embed-responsive embed-responsive-16by9" alt="">
-                        <h5 class="card-title text-center mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
-                    </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 my-2">
+                    <a href="#">
+                        <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
+                            <img src="assets/images/taro-product-1.png" class="rounded-lg" alt="">
+                            <h5 class="card-title text-dark mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
+                        </div>
+                    </a>
                 </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 my-2">
+                    <a href="#">
+                        <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
+                            <img src="assets/images/taro-product-1.png" class="rounded-lg" alt="">
+                            <h5 class="card-title text-dark mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 my-2">
+                    <a href="#">
+                        <div class="card py-3 px-3 rounded-lg bg-light" style="border: none;">
+                            <img src="assets/images/taro-product-1.png" class="rounded-lg" alt="">
+                            <h5 class="card-title text-dark mt-3 font-talas-body">Talas Pratama | 1 Kg</h5>
+                        </div>
+                    </a>
+                </div>
+                
             </div>
             <!-- Pagination Section -->
             <div class="row py-3 justify-content-center">
@@ -136,11 +166,15 @@
                       <li class="page-item disabled">
                         <a class="page-link">Previous</a>
                       </li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item current-page"><a class="page-link" href="#">1</a></li>
                       <li class="page-item"><a class="page-link" href="#">2</a></li>
                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link" href="#">5</a></li>
+                      <li class="page-item"><a class="page-link" href="#">6</a></li>
+                      <li class="page-item"><a class="page-link" href="#">7</a></li>
                       <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
+                        <a class="page-link font-weight-bold" href="#">Next</a>
                       </li>
                     </ul>
                   </nav>
@@ -149,10 +183,10 @@
     </section>
 
     <!-- Footer Section -->
-    <section class="main d-flex bg-talas pb-3 pt-5">
-        <div class="container-fluid align-items-center justify-content-center">
+    <section class="main bg-talas py-5">
+        <div class="container-fluid">
           <div class="row px-lg-5 px-xl-5 mx-lg-5 mx-xl-5">
-            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-sm-3 py-md-3">
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-3 py-md-3">
                 <h2 class="display-5 font-weight-bold text-white font-talas-head">
                     About Us
                 </h2>
@@ -170,9 +204,8 @@
                     <i class="fa-brands fa-youtube text-white"></i>
                 </button>
             </div>
-            <!-- End Col -->
     
-            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-sm-3 py-md-3">
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-3 py-md-3">
                 <h2 class="display-5 font-weight-bold text-white font-talas-head">
                     Quick Link
                 </h2>
@@ -187,9 +220,8 @@
               </ul>
               <!-- End List -->
             </div>
-            <!-- End Col -->
     
-            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-sm-3 py-md-3">
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-3 py-md-3">
                 <h2 class="display-5 font-weight-bold text-white font-talas-head">
                     Product
                 </h2>
@@ -202,9 +234,8 @@
               </ul>
               <!-- End List -->
             </div>
-            <!-- End Col -->
     
-            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-sm-3 py-md-3">
+            <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-3 py-md-3">
                 <h2 class="display-5 font-weight-bold text-white font-talas-head">
                     Reach Us
                 </h2>
@@ -229,7 +260,6 @@
               </ul>
               <!-- End List -->
             </div>
-            <!-- End Col -->
           </div>
           <!-- End Row -->
     

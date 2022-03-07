@@ -43,8 +43,19 @@
     border: 1px solid #276555 !important;
     border-radius: .75rem !important;
 }
+.page-link{
+    border: none !important;
+    color: #343a40;
+}
+.page-item{
+    margin-left: .50rem;
+    margin-right: .50rem;
+}
+.current-page{
+    border-bottom: 3px solid #276555;
+}
 .page-head-image{
-    background-image: url("../images/daun-talas-breadcrumb.svg"); /* The image used */
+    /* background-image: url("../images/daun-talas-breadcrumb.svg"); The image used */
     background-position: right; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: contain;
@@ -69,6 +80,9 @@
 }
 .bg-talas {
     background-color: #276555 !important;
+}
+.active {
+    color: #276555 !important;
 }
 .font-talas-head{
     font-family: "Vollkorn", Times, serif !important;
