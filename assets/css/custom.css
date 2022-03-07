@@ -7,8 +7,56 @@
     src: url('../fonts/Vollkorn/static/Vollkorn-Regular.ttf');
 }
 .blur {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px); 
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px); 
+}
+.form-search{
+    border-top-color: rgb(206, 212, 218);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(206, 212, 218);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(206, 212, 218);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(206, 212, 218);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: .5rem;
+}
+.form-search-none{
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    border-radius: .5rem;
+}
+.menu-taro-active{
+    color: #276555 !important;
+    background-color: white !important;
+    border: 1px solid #276555 !important;
+    border-radius: .75rem !important;
+}
+.page-head-image{
+    background-image: url("../images/daun-talas-breadcrumb.svg"); /* The image used */
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
 }
 .navbar-brand{
     margin-right: 0rem !important;
