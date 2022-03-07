@@ -47,6 +47,11 @@
     border: none !important;
     color: #343a40;
 }
+.article-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .page-item{
     margin-left: .50rem;
     margin-right: .50rem;
