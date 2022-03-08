@@ -37,6 +37,16 @@
     border-left-width: 0px !important;
     border-radius: .5rem;
 }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #f8f9fa!important;
+    padding: .5rem 1rem 1px 1rem !important;
+    color: black;
+    border-radius: .75rem;
+}
+.nav-pills .nav-link, .nav-pills .nav-link{
+    color: black;
+    padding: .5rem 1rem 1px 1rem !important;
+}
 .menu-taro-active{
     color: #276555 !important;
     background-color: white !important;
